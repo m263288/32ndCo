@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+    <title>Test Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,21 @@
             margin: 0;
             padding: 0;
             text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
         .container {
             margin-top: 50px;
@@ -22,13 +37,36 @@
             color: #666;
             font-size: 18px;
         }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to Test Website</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <div class="container">
-        <h1>Welcome to Your Test Website!</h1>
-        <p>This is a simple HTML page for testing purposes.</p>
-        <p>Feel free to modify it as you like!</p>
+        <h2>Home Page</h2>
+        <p>This is the home page of our test website.</p>
+        <p>Feel free to navigate to other pages using the links above.</p>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Test Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
