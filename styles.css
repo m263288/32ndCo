@@ -43,7 +43,7 @@ footer {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #4c63af;
     border: none;
     border-radius: 6px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -51,7 +51,7 @@ footer {
   }
   
   .cool-button:hover {
-    background-color: #45a049;
+    background-color: #207a7d;
     transform: translateY(-2px);
   }
   
